@@ -30,7 +30,7 @@ public class UserController {
 	@GetMapping("/get-users")
 	public List<User> getUsers() {
 		System.out.println("In getUsers() method" + firstName);
-		System.out.println("Testing GIT...");
+		System.out.println("Testing GIT....");
 		return userService.getUsers();
 	}
 
